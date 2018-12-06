@@ -3,6 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+const WorkboxPlugin = require('workbox-webpack-plugin');
 
 // We need Nodes fs module to read directory contents
 const fs = require('fs')
@@ -96,6 +97,12 @@ module.exports = {
                 collapseWhitespace: true,
                 conservativeCollapse: true
               },
+        }),
+        new WorkboxPlugin.GenerateSW({
+        // these options encourage the ServiceWorkers to get in there fast 
+        // and not allow any straggling "old" SWs to hang around
+        clientsClaim: true,
+        skipWaiting: true,
         }),
         new CleanWebpackPlugin(['dist'])
     ].concat(entryHtmlPlugins)
