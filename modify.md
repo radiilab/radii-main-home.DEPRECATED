@@ -11,3 +11,8 @@ first release beta unstable nightly 1 for radii home released
 december 5 2018
 ===============
 the website is now a progressive webapp with advanced caching of upto a week!!
+
+21 december 2018
+=================
+
+Added favicon support
