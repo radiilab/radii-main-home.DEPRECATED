@@ -16,3 +16,13 @@ the website is now a progressive webapp with advanced caching of upto a week!!
 =================
 
 Added favicon support
+
+19 january 2019
+================
+
+added a mainstream upgrade to the look of radii home
+
+21.01.2019
+=================
+
+added consultancy services to radii home 

@@ -12,6 +12,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
+img.autofix {
+  height: 50%;
+  width: 50%;
+}
 </style>
 <body>
 
@@ -53,13 +57,13 @@ body {font-size:16px;}
   <!-- Photo grid (modal) to be generated using photoshop -->
   <div class="w3-row-padding">
     <!-- Header -->
-<div class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
-    <img class="w3-image" src="images/london.jpg" alt="London" width="1500" height="700">
+<div class="w3-display-container w3-content" style="max-width:1500px">
+    <img class="w3-image " src="images/london.jpg" alt="London" width="1500" height="700">
     <div class="w3-display-middle" style="width:65%">
       <div class="w3-bar w3-black">
         <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'One');"><i class="fa fa-plane w3-margin-right"></i>One</button>
         <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'edu');"><i class="fa fa-bed w3-margin-right"></i>Edu</button>
-        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'collab');"><i class="fa fa-car w3-margin-right"></i>Collab</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'consult');"><i class="fa fa-car w3-margin-right"></i>Consult</button>
       </div>
   
       <!-- Tabs -->
@@ -83,25 +87,22 @@ body {font-size:16px;}
         <h3>Have the best in class researches at hand</h3>
         <p>Interests</p>
           <p>
-            <span class="w3-tag w3-small w3-theme-d5">News</span>
-            <span class="w3-tag w3-small w3-theme-d4">W3Schools</span>
-            <span class="w3-tag w3-small w3-theme-d3">Labels</span>
-            <span class="w3-tag w3-small w3-theme-d2">Games</span>
-            <span class="w3-tag w3-small w3-theme-d1">Friends</span>
-            <span class="w3-tag w3-small w3-theme">Games</span>
-            <span class="w3-tag w3-small w3-theme-l1">Friends</span>
-            <span class="w3-tag w3-small w3-theme-l2">Food</span>
-            <span class="w3-tag w3-small w3-theme-l3">Design</span>
-            <span class="w3-tag w3-small w3-theme-l4">Art</span>
-            <span class="w3-tag w3-small w3-theme-l5">Photos</span>
+            <span class="w3-tag w3-small w3-theme-d5">Space</span>
+            <span class="w3-tag w3-small w3-theme-d4">Research</span>
+            <span class="w3-tag w3-small w3-theme-d3">collaborate</span>
+            <span class="w3-tag w3-small w3-theme-d2">develop</span>
+            <span class="w3-tag w3-small w3-theme-d1">open</span>
+            <span class="w3-tag w3-small w3-theme">quantum</span>
+            <span class="w3-tag w3-small w3-theme-l1">ML</span>
+            <span class="w3-tag w3-small w3-theme-l2">AI</span>
           </p>
         <p><a href="https://edu.radii.in/" target="_blank" style="text-decoration: none" class="w3-button w3-dark-grey">With Radii <i class="fa fa-arrow-right" aria-hidden="true"></i></button></p>
       </div>
   
-      <div id="collab" class="w3-container w3-white w3-padding-16 myLink">
-        <h3>Best car rental in the world!</h3>
+      <div id="consult" class="w3-container w3-white w3-padding-16 myLink">
+        <h3>Get yourself a certified expert consultation from Radii Corporation</h3>
         <p><span class="w3-tag w3-deep-orange">INTRODUCTORY OFFER!</span> Our mentors and researchers are now available for consulting</p>
-        <p><a href="CommingSoon.html" class="w3-button w3-dark-grey">Book an appointment with us</button></p>
+        <p><a href="https://consult.radii.in/" class="w3-button w3-dark-grey">Book an appointment with us</button></p>
       </div>
     </div>
   </div>
