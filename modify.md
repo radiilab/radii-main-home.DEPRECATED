@@ -26,3 +26,8 @@ added a mainstream upgrade to the look of radii home
 =================
 
 added consultancy services to radii home 
+
+25.01.2019
+================
+
+upgrade into the datasheets of radii main yellow pages
