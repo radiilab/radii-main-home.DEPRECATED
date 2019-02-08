@@ -31,3 +31,8 @@ added consultancy services to radii home
 ================
 
 upgrade into the datasheets of radii main yellow pages
+
+08.02.2019
+==============
+
+addition of the products domain to the website ... cleanup is scheduled 
