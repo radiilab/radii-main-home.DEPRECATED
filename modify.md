@@ -36,3 +36,8 @@ upgrade into the datasheets of radii main yellow pages
 ==============
 
 addition of the products domain to the website ... cleanup is scheduled 
+
+10.02.2019
+=================
+
+- addition of a button to the product linkage page
