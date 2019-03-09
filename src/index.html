@@ -16,6 +16,39 @@ img.autofix {
   height: 50%;
   width: 50%;
 }
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
 </style>
 <body>
 
@@ -119,7 +152,13 @@ img.autofix {
   
   </div>
 
-  
+  <div class="callout">
+      <div class="callout-header">Get updates</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>Go to <a href="http://plus.radii.in/" target="_blank">Radii Plus</a> or close it if it is in your way.</p>
+      </div>
+    </div>
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -140,7 +179,7 @@ img.autofix {
       <span class="w3-tag w3-text-amber">We partner them</span> to get nothing but the best delivered to our clients Everyday, 100 &#37; of the time.
     </p>
   </div>
-  
+
   <!-- Designers -->
   <div class="w3-container" id="designers" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-amber"><b>What we stand for</b></h1>
